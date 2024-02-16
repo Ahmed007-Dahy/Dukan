@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,700;1,300;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .active-navigation {
+        @apply backdrop-filter drop-shadow-2xl shadow-banner
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.animation-nav-links {
+    animation: fadeRightNavLinks 0.8s ease-in-out 0.05s normal both running;
+    --webkit-animation: fadeRightNavLinks 0.8s ease-in-out 0.05s normal both
+    running;
+}
+@keyframes fadeRightNavLinks {
+    0% {
+        /*opacity: 0;*/
+        left: -100%;
+        width: 0;
+    }
+    100% {
+        /*opacity: 1;*/
+        left: 0;
+        width: 100%;
+    }
+}
+    .animation-nav {
+        animation: fadeInDowNav 0.4s ease-in-out normal running 1;
+        --webkit-animation: fadeInDowNav 0.4s ease-in-out normal running 1;
+        box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+        position: sticky;
+        left: 0;
+        top: 0;
+        width: 100%;
+        max-width: 100%;
+        z-index: 10;
+    }
+    @keyframes fadeInDowNav {
+        0% {
+            opacity: 0;
+            --webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+        }
+        100% {
+            opacity: 1;
+            --webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+    }
