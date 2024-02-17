@@ -61,7 +61,7 @@ export default {
 </script>
 <template>
     <section
-        class="relative min-h-[20px] max-w-[2000px] pl-[3.7rem] md:pl-0 landscape:sm:pl-10 landscape:tablet:pl-20"
+        class="relative min-h-[20px] max-w-[2000px] pl-[4rem] md:pl-0 landscape:sm:pl-10 landscape:tablet:pl-20"
     >
         <h2 class="mb-6 font-Quicksand text-[25px] font-semibold">
             Main Category
