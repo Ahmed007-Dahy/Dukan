@@ -86,7 +86,9 @@ onMounted(fetchNewProducts);
 
 <template>
     <main class="relative min-h-[20px] max-w-full">
-        <h2 class="mb-6 font-Quicksand text-[25px] font-semibold">
+        <h2
+            class="mb-6 font-Quicksand text-[20px] font-semibold landscape:tablet:text-[25px]"
+        >
             Most Popular Products
         </h2>
         <button
@@ -131,7 +133,7 @@ onMounted(fetchNewProducts);
             }"
         >
             <SwiperSlide v-for="product in newProductsRaw" :key="product.id">
-                <div class="w-[90%] overflow-hidden lg:w-[70%]">
+                <div class="mx-auto w-[90%] overflow-hidden lg:w-[90%]">
                     <div class="mb-3 flex items-center justify-between">
                         <h2
                             class="flex items-center rounded-l-lg rounded-br-2xl bg-titleOfCard px-1.5 py-1.5 font-Quicksand text-xl font-semibold text-white brightness-110"

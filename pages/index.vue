@@ -7,7 +7,9 @@ import WeekOffer from "~/components/WeekOffer/WeekOffer.vue";
 <template>
     <div>
         <Header />
-        <section class="w-full max-w-full bg-pageInfo px-4 lg:px-14 xl:px-20">
+        <section
+            class="w-full max-w-full bg-pageInfo px-4 pb-10 lg:px-14 xl:px-20"
+        >
             <BannerSlider />
             <ShoppingOnline />
             <MainCategories />

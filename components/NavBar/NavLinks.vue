@@ -161,8 +161,10 @@ export default {
                         </h2>
                     </div>
                 </div>
-                <span class="font-Quicksand font-semibold text-red-600" v-else
-                    >{{ error }}
+                <span
+                    class="py-5 font-Quicksand font-semibold text-red-600"
+                    v-else
+                    >{{ error }} &nbsp;
                 </span>
             </div>
             <!--cash back box & icons-->
