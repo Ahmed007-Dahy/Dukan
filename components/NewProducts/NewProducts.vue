@@ -136,7 +136,7 @@ onMounted(fetchNewProducts);
                 v-for="product in newProductsRaw"
                 :key="product.id"
             >
-                <div class="w-[90%] overflow-hidden lg:w-[70%]">
+                <div class="mx-auto w-[90%] overflow-hidden lg:w-[90%]">
                     <div class="mb-4 flex items-center justify-between">
                         <h2
                             class="flex items-center rounded-l-lg rounded-br-2xl bg-titleOfCard px-2.5 py-1.5 font-Quicksand text-xl font-semibold text-white brightness-110"
@@ -169,9 +169,11 @@ onMounted(fetchNewProducts);
                             </button>
                         </div>
                     </div>
-                    <div class="flex items-center justify-center bg-white py-5">
+                    <div
+                        class="mx-auto flex w-full items-center justify-center bg-white py-5 landscape:tablet:w-auto"
+                    >
                         <img
-                            class="h-[200px] w-[200px] rounded-full"
+                            class="h-[200px] w-[200px]"
                             :src="product.image"
                             :alt="product.name"
                         />
