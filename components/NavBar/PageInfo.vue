@@ -1,6 +1,6 @@
 <template>
     <div
-        class="hidden items-center bg-pageInfo px-10 py-3.5 landscape:md:flex landscape:md:px-2 landscape:xl:px-20"
+        class="hidden items-center bg-pageInfo px-10 py-3.5 landscape:md:flex landscape:md:px-[2.6rem] landscape:xl:px-20"
     >
         <div class="flex w-[75%] items-center gap-x-5">
             <!--fast deliver box-->
