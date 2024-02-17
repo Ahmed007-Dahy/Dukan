@@ -30,7 +30,7 @@ export default {
 <template>
     <header
         :class="`${
-            isSticky ? 'animation-nav  flex w-full max-w-full' : ''
+            isSticky ? 'animation-nav flex w-full max-w-full' : ''
         } h-[27dvh] w-full max-w-full md:h-auto`"
     >
         <NavBar />
