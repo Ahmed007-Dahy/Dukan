@@ -95,7 +95,7 @@ onMounted(fetchNewProducts);
                 toggleActiveButton === 'btn1'
                     ? 'border-2 border-banner'
                     : 'border-2 border-gray-500'
-            } swiper-next-slide1 absolute right-[10%] top-[0.5%] tablet:top-[0%]`"
+            } swiper-next-slide1 absolute right-[4.2%] top-[0.5%] tablet:top-[0%]`"
             type="button"
         >
             <Icon
@@ -249,7 +249,7 @@ onMounted(fetchNewProducts);
                 toggleActiveButton === 'btn2'
                     ? 'border-2 border-banner'
                     : 'border-2 border-gray-500'
-            } swiper-perv-slide1 absolute right-[0%] top-[0.5%] tablet:right-[7%] tablet:top-[0%]`"
+            } swiper-perv-slide1 absolute right-[0%] top-[0.5%] tablet:right-[1.5%] tablet:top-[0%]`"
             type="button"
         >
             <Icon
