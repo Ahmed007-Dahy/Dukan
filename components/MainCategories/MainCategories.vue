@@ -60,9 +60,7 @@ export default {
 };
 </script>
 <template>
-    <section
-        class="relative min-h-[20px] max-w-[2000px] pl-[4rem] md:pl-0 landscape:sm:pl-10 landscape:tablet:pl-20"
-    >
+    <section class="relative min-h-[20px] max-w-[2000px]">
         <h2 class="mb-6 font-Quicksand text-[25px] font-semibold">
             Main Category
         </h2>
@@ -104,9 +102,9 @@ export default {
             }"
         >
             <SwiperSlide v-for="image in mainCategoryRaw" :key="image.id">
-                <div class="overflow-hidden">
+                <div class="overflow-hidden text-center">
                     <img
-                        class="h-[200px] w-[200px] rounded-full"
+                        class="mx-auto h-[200px] w-[200px] rounded-full"
                         :src="image.image"
                         :alt="image.name"
                     />
