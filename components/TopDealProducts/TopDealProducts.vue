@@ -131,7 +131,7 @@ onMounted(fetchNewProducts);
             }"
         >
             <SwiperSlide v-for="product in newProductsRaw" :key="product.id">
-                <div class="mx-auto w-[90%] overflow-hidden lg:w-[93%]">
+                <div class="mx-auto w-[90%] overflow-hidden lg:w-[90%]">
                     <div class="mb-3 flex items-center justify-between">
                         <h2
                             class="flex items-center rounded-l-lg rounded-br-2xl bg-titleOfCard px-2.5 py-1.5 font-Quicksand text-xl font-semibold text-white brightness-110"
