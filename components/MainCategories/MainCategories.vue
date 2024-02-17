@@ -60,13 +60,15 @@ export default {
 };
 </script>
 <template>
-    <section class="relative min-h-[20px] max-w-[2000px] pl-20 md:pl-0">
+    <section
+        class="relative min-h-[20px] max-w-[2000px] pl-[3.7rem] md:pl-0 landscape:sm:pl-10 landscape:tablet:pl-20"
+    >
         <h2 class="mb-6 font-Quicksand text-[25px] font-semibold">
             Main Category
         </h2>
         <button
             @click="handleToggleActive('btn1')"
-            class="swiper-next-slide absolute left-[-4%] top-[50%]"
+            class="swiper-next-slide absolute left-[2%] top-[50%] z-[2] landscape:sm:left-0 landscape:tablet:left-[-4%]"
             type="button"
         >
             <Icon
@@ -125,7 +127,7 @@ export default {
         </Swiper>
         <button
             @click="handleToggleActive('btn2')"
-            class="swiper-perv-slide absolute right-[-4%] top-[50%] rotate-180"
+            class="swiper-perv-slide absolute right-[2%] top-[50%] z-[2] rotate-180 landscape:sm:right-0 landscape:tablet:right-[-4%]"
             type="button"
         >
             <Icon
