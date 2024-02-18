@@ -1,12 +1,8 @@
 <template>
-    <div
-        class="hidden items-center bg-pageInfo px-10 py-3.5 landscape:md:flex landscape:md:px-[2.6rem] landscape:xl:px-20"
-    >
-        <div class="flex w-[75%] items-center gap-x-5">
+    <div class="hidden items-center bg-pageInfo px-10 py-3.5 lg:flex xl:px-20">
+        <div class="flex items-center gap-x-5">
             <!--fast deliver box-->
-            <div
-                class="flex items-center gap-x-3 landscape:md:w-[22%] landscape:lg:w-[19%] landscape:xl:w-[18%]"
-            >
+            <div class="flex items-center gap-x-3 lg:w-[19%] xl:w-[16%]">
                 <img
                     class="w-[40%]"
                     src="../../assets/images/navbar/fastDelivery.webp"
@@ -19,9 +15,7 @@
                 </h2>
             </div>
             <!--store info box-->
-            <div
-                class="flex items-center gap-x-3 landscape:md:w-[28%] landscape:lg:w-[25%] landscape:xl:w-[23%]"
-            >
+            <div class="flex items-center gap-x-3 lg:w-[25%] xl:w-[20%]">
                 <img
                     class="w-[15%]"
                     src="../../assets/images/navbar/homeIcon.webp"
@@ -33,10 +27,8 @@
                     + 500 offline stores with high quality products
                 </h2>
             </div>
-            <!--cash info box-->
-            <div
-                class="flex items-center gap-x-3 xl:w-[21%] landscape:md:w-[28%] landscape:lg:w-[25%]"
-            >
+            <!--store info box-->
+            <div class="flex items-center gap-x-3 lg:w-[25%] xl:w-[21%]">
                 <img
                     class="w-[15%]"
                     src="../../assets/images/navbar/Active.webp"
@@ -51,12 +43,12 @@
         </div>
         <!--translate & phone number part-->
         <div
-            class="flex w-[25%] items-center gap-x-5 font-Quicksand font-semibold text-pageInfoTextColor xl:gap-x-7"
+            class="flex items-center gap-x-5 font-Quicksand font-semibold text-pageInfoTextColor xl:gap-x-7"
         >
             <div>
                 <span>AR</span>
                 <span
-                    class="mx-1.5 border-l-2 border-l-pageInfoTextColor landscape:lg:mx-1.5 landscape:xl:mx-2.5"
+                    class="border-l-2 border-l-pageInfoTextColor lg:mx-1.5 xl:mx-2.5"
                 ></span>
                 <span>EN</span>
             </div>
